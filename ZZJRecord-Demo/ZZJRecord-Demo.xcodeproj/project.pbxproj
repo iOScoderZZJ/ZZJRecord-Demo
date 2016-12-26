@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D574C491E10C38D00184D39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D574C481E10C38D00184D39 /* main.m */; };
+		0D574C4C1E10C38D00184D39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D574C4B1E10C38D00184D39 /* AppDelegate.m */; };
+		0D574C4F1E10C38D00184D39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D574C4E1E10C38D00184D39 /* ViewController.m */; };
+		0D574C521E10C38D00184D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D574C501E10C38D00184D39 /* Main.storyboard */; };
+		0D574C541E10C38D00184D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D574C531E10C38D00184D39 /* Assets.xcassets */; };
+		0D574C571E10C38D00184D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D574C551E10C38D00184D39 /* LaunchScreen.storyboard */; };
+		0D574C621E10C38D00184D39 /* ZZJRecord_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D574C611E10C38D00184D39 /* ZZJRecord_DemoTests.m */; };
+		0D574C6D1E10C38D00184D39 /* ZZJRecord_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D574C6C1E10C38D00184D39 /* ZZJRecord_DemoUITests.m */; };
+		0D574C7D1E10C48500184D39 /* LVRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D574C7C1E10C48500184D39 /* LVRecordTool.m */; };
+		0D574C811E10C56400184D39 /* ZZJRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D574C801E10C56400184D39 /* ZZJRecordButton.m */; };
+		0D574C871E10C9AA00184D39 /* UIView+ZZJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D574C861E10C9AA00184D39 /* UIView+ZZJExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D574C5E1E10C38D00184D39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D574C3C1E10C38C00184D39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D574C431E10C38C00184D39;
+			remoteInfo = "ZZJRecord-Demo";
+		};
+		0D574C691E10C38D00184D39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D574C3C1E10C38C00184D39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D574C431E10C38C00184D39;
+			remoteInfo = "ZZJRecord-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D574C441E10C38C00184D39 /* ZZJRecord-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZZJRecord-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D574C481E10C38D00184D39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D574C4A1E10C38D00184D39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D574C4B1E10C38D00184D39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D574C4D1E10C38D00184D39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D574C4E1E10C38D00184D39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D574C511E10C38D00184D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D574C531E10C38D00184D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D574C561E10C38D00184D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D574C581E10C38D00184D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D574C5D1E10C38D00184D39 /* ZZJRecord-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZZJRecord-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D574C611E10C38D00184D39 /* ZZJRecord_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZJRecord_DemoTests.m; sourceTree = "<group>"; };
+		0D574C631E10C38D00184D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D574C681E10C38D00184D39 /* ZZJRecord-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ZZJRecord-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D574C6C1E10C38D00184D39 /* ZZJRecord_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZJRecord_DemoUITests.m; sourceTree = "<group>"; };
+		0D574C6E1E10C38D00184D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D574C7B1E10C47A00184D39 /* LVRecordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVRecordTool.h; sourceTree = "<group>"; };
+		0D574C7C1E10C48500184D39 /* LVRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVRecordTool.m; sourceTree = "<group>"; };
+		0D574C7F1E10C56400184D39 /* ZZJRecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZJRecordButton.h; sourceTree = "<group>"; };
+		0D574C801E10C56400184D39 /* ZZJRecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZJRecordButton.m; sourceTree = "<group>"; };
+		0D574C851E10C9AA00184D39 /* UIView+ZZJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZZJExtension.h"; sourceTree = "<group>"; };
+		0D574C861E10C9AA00184D39 /* UIView+ZZJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZZJExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D574C411E10C38C00184D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D574C5A1E10C38D00184D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D574C651E10C38D00184D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D574C3B1E10C38C00184D39 = {
+			isa = PBXGroup;
+			children = (
+				0D574C461E10C38C00184D39 /* ZZJRecord-Demo */,
+				0D574C601E10C38D00184D39 /* ZZJRecord-DemoTests */,
+				0D574C6B1E10C38D00184D39 /* ZZJRecord-DemoUITests */,
+				0D574C451E10C38C00184D39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D574C451E10C38C00184D39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D574C441E10C38C00184D39 /* ZZJRecord-Demo.app */,
+				0D574C5D1E10C38D00184D39 /* ZZJRecord-DemoTests.xctest */,
+				0D574C681E10C38D00184D39 /* ZZJRecord-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D574C461E10C38C00184D39 /* ZZJRecord-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0D574C7E1E10C54E00184D39 /* View */,
+				0D574C7A1E10C41400184D39 /* Tool */,
+				0D574C4A1E10C38D00184D39 /* AppDelegate.h */,
+				0D574C4B1E10C38D00184D39 /* AppDelegate.m */,
+				0D574C4D1E10C38D00184D39 /* ViewController.h */,
+				0D574C4E1E10C38D00184D39 /* ViewController.m */,
+				0D574C501E10C38D00184D39 /* Main.storyboard */,
+				0D574C531E10C38D00184D39 /* Assets.xcassets */,
+				0D574C551E10C38D00184D39 /* LaunchScreen.storyboard */,
+				0D574C581E10C38D00184D39 /* Info.plist */,
+				0D574C471E10C38D00184D39 /* Supporting Files */,
+			);
+			path = "ZZJRecord-Demo";
+			sourceTree = "<group>";
+		};
+		0D574C471E10C38D00184D39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D574C481E10C38D00184D39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D574C601E10C38D00184D39 /* ZZJRecord-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D574C611E10C38D00184D39 /* ZZJRecord_DemoTests.m */,
+				0D574C631E10C38D00184D39 /* Info.plist */,
+			);
+			path = "ZZJRecord-DemoTests";
+			sourceTree = "<group>";
+		};
+		0D574C6B1E10C38D00184D39 /* ZZJRecord-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D574C6C1E10C38D00184D39 /* ZZJRecord_DemoUITests.m */,
+				0D574C6E1E10C38D00184D39 /* Info.plist */,
+			);
+			path = "ZZJRecord-DemoUITests";
+			sourceTree = "<group>";
+		};
+		0D574C7A1E10C41400184D39 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0D574C7B1E10C47A00184D39 /* LVRecordTool.h */,
+				0D574C7C1E10C48500184D39 /* LVRecordTool.m */,
+				0D574C851E10C9AA00184D39 /* UIView+ZZJExtension.h */,
+				0D574C861E10C9AA00184D39 /* UIView+ZZJExtension.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0D574C7E1E10C54E00184D39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0D574C7F1E10C56400184D39 /* ZZJRecordButton.h */,
+				0D574C801E10C56400184D39 /* ZZJRecordButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D574C431E10C38C00184D39 /* ZZJRecord-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D574C711E10C38D00184D39 /* Build configuration list for PBXNativeTarget "ZZJRecord-Demo" */;
+			buildPhases = (
+				0D574C401E10C38C00184D39 /* Sources */,
+				0D574C411E10C38C00184D39 /* Frameworks */,
+				0D574C421E10C38C00184D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZZJRecord-Demo";
+			productName = "ZZJRecord-Demo";
+			productReference = 0D574C441E10C38C00184D39 /* ZZJRecord-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D574C5C1E10C38D00184D39 /* ZZJRecord-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D574C741E10C38D00184D39 /* Build configuration list for PBXNativeTarget "ZZJRecord-DemoTests" */;
+			buildPhases = (
+				0D574C591E10C38D00184D39 /* Sources */,
+				0D574C5A1E10C38D00184D39 /* Frameworks */,
+				0D574C5B1E10C38D00184D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D574C5F1E10C38D00184D39 /* PBXTargetDependency */,
+			);
+			name = "ZZJRecord-DemoTests";
+			productName = "ZZJRecord-DemoTests";
+			productReference = 0D574C5D1E10C38D00184D39 /* ZZJRecord-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D574C671E10C38D00184D39 /* ZZJRecord-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D574C771E10C38D00184D39 /* Build configuration list for PBXNativeTarget "ZZJRecord-DemoUITests" */;
+			buildPhases = (
+				0D574C641E10C38D00184D39 /* Sources */,
+				0D574C651E10C38D00184D39 /* Frameworks */,
+				0D574C661E10C38D00184D39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D574C6A1E10C38D00184D39 /* PBXTargetDependency */,
+			);
+			name = "ZZJRecord-DemoUITests";
+			productName = "ZZJRecord-DemoUITests";
+			productReference = 0D574C681E10C38D00184D39 /* ZZJRecord-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D574C3C1E10C38C00184D39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = chefuzzj;
+				TargetAttributes = {
+					0D574C431E10C38C00184D39 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					0D574C5C1E10C38D00184D39 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0D574C431E10C38C00184D39;
+					};
+					0D574C671E10C38D00184D39 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0D574C431E10C38C00184D39;
+					};
+				};
+			};
+			buildConfigurationList = 0D574C3F1E10C38C00184D39 /* Build configuration list for PBXProject "ZZJRecord-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D574C3B1E10C38C00184D39;
+			productRefGroup = 0D574C451E10C38C00184D39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D574C431E10C38C00184D39 /* ZZJRecord-Demo */,
+				0D574C5C1E10C38D00184D39 /* ZZJRecord-DemoTests */,
+				0D574C671E10C38D00184D39 /* ZZJRecord-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D574C421E10C38C00184D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D574C571E10C38D00184D39 /* LaunchScreen.storyboard in Resources */,
+				0D574C541E10C38D00184D39 /* Assets.xcassets in Resources */,
+				0D574C521E10C38D00184D39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D574C5B1E10C38D00184D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D574C661E10C38D00184D39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D574C401E10C38C00184D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D574C7D1E10C48500184D39 /* LVRecordTool.m in Sources */,
+				0D574C871E10C9AA00184D39 /* UIView+ZZJExtension.m in Sources */,
+				0D574C4F1E10C38D00184D39 /* ViewController.m in Sources */,
+				0D574C4C1E10C38D00184D39 /* AppDelegate.m in Sources */,
+				0D574C491E10C38D00184D39 /* main.m in Sources */,
+				0D574C811E10C56400184D39 /* ZZJRecordButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D574C591E10C38D00184D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D574C621E10C38D00184D39 /* ZZJRecord_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D574C641E10C38D00184D39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D574C6D1E10C38D00184D39 /* ZZJRecord_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D574C5F1E10C38D00184D39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D574C431E10C38C00184D39 /* ZZJRecord-Demo */;
+			targetProxy = 0D574C5E1E10C38D00184D39 /* PBXContainerItemProxy */;
+		};
+		0D574C6A1E10C38D00184D39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D574C431E10C38C00184D39 /* ZZJRecord-Demo */;
+			targetProxy = 0D574C691E10C38D00184D39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D574C501E10C38D00184D39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D574C511E10C38D00184D39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D574C551E10C38D00184D39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D574C561E10C38D00184D39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D574C6F1E10C38D00184D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D574C701E10C38D00184D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D574C721E10C38D00184D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZZJRecord-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chefu.ZZJRecord-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D574C731E10C38D00184D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZZJRecord-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chefu.ZZJRecord-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0D574C751E10C38D00184D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZZJRecord-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chefu.ZZJRecord-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZJRecord-Demo.app/ZZJRecord-Demo";
+			};
+			name = Debug;
+		};
+		0D574C761E10C38D00184D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ZZJRecord-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chefu.ZZJRecord-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZJRecord-Demo.app/ZZJRecord-Demo";
+			};
+			name = Release;
+		};
+		0D574C781E10C38D00184D39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZZJRecord-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chefu.ZZJRecord-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZZJRecord-Demo";
+			};
+			name = Debug;
+		};
+		0D574C791E10C38D00184D39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ZZJRecord-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chefu.ZZJRecord-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ZZJRecord-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D574C3F1E10C38C00184D39 /* Build configuration list for PBXProject "ZZJRecord-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D574C6F1E10C38D00184D39 /* Debug */,
+				0D574C701E10C38D00184D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D574C711E10C38D00184D39 /* Build configuration list for PBXNativeTarget "ZZJRecord-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D574C721E10C38D00184D39 /* Debug */,
+				0D574C731E10C38D00184D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D574C741E10C38D00184D39 /* Build configuration list for PBXNativeTarget "ZZJRecord-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D574C751E10C38D00184D39 /* Debug */,
+				0D574C761E10C38D00184D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0D574C771E10C38D00184D39 /* Build configuration list for PBXNativeTarget "ZZJRecord-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D574C781E10C38D00184D39 /* Debug */,
+				0D574C791E10C38D00184D39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D574C3C1E10C38C00184D39 /* Project object */;
+}
