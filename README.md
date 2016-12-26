@@ -3,6 +3,6 @@
 
 个人简书地址http://www.jianshu.com/users/12e0bbb7297b/latest_articles
 
-![image](https://github.com/iOScoderZZJ/ZZJRecord-Demo/WechatIMG228.jpeg)
+![image](https://github.com/iOScoderZZJ/ZZJRecord-Demo/ZZJRecord-Demo/WechatIMG228.jpeg)
 
-![image](https://github.com/iOScoderZZJ/ZZJRecord-Demo/WechatIMG229.jpeg)
+![image](https://github.com/iOScoderZZJ/ZZJRecord-Demo/ZZJRecord-Demo/WechatIMG229.jpeg)
